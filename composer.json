@@ -4,7 +4,7 @@
     {
         "type": "package",
         "package": {
-            "name": "OneAll/php-sdk",
+            "name": "runcong/php-sdk",
             "version": "master",
             "source": {
                 "url": "https://github.com/runcong/php-sdk",
