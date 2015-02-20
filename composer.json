@@ -1,0 +1,20 @@
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "OneAll/php-sdk",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/runcong/php-sdk",
+                "type": "git",
+                "reference": "origin/master"
+            }
+        }
+    }
+],
+"require": {
+    "tamago/one-all-bundle": "dev-master",
+},
+"config": {
+    "vendor-dir": "Vendor"
+}
