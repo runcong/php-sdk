@@ -1,22 +1,18 @@
 {
-
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "runcong/php-sdk",
-            "version": "master",
-            "source": {
-                "url": "https://github.com/runcong/php-sdk",
-                "type": "git",
-                "reference": "origin/master"
-            }
+    "name": "oneall/php-sdk",
+    "type": "symfony-bundle",
+    "description": "PHP social networking SDK from OneAll",
+    "keywords": ["PHP", "oneall", "sdk"],
+    "homepage": "http://www.oneall.com/",
+    "authors": [
+        {
+            "name": "Schlesser Claude"
         }
-    }
-],
+    ],
 
-"config": {
-    "vendor-dir": "Vendor"
-}
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*"
+    }
 
 }
